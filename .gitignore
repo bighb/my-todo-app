@@ -1,0 +1,40 @@
+# Node modules
+**/node_modules/
+
+# pnpm lockfile (if you are not using the global one)
+pnpm-lock.yaml
+
+# Build output directories
+**/dist/
+**/build/
+**/.next/
+**/.nuxt/
+**/out/
+
+# Vite
+.vite/
+vite.config.ts
+
+# dotenv environment variable files
+.env
+.env.local
+.env.*.local
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Debugging files
+*.out
+*.pid
+*.gz
+
+# TypeScript compiled files
+*.tsbuildinfo
