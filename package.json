@@ -10,11 +10,17 @@
     "dev:client": "pnpm --filter client dev",
     "dev:server": "pnpm --filter server dev",
     "dev:docs": "pnpm --filter docs dev",
-    "build": "pnpm --recursive run build"
+    "build": "pnpm --recursive run build",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write ."
   },
   "devDependencies": {
-    "eslint": "^8.0.0",
-    "prettier": "^3.0.0"
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.2",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "prettier": "^3.4.2"
   },
   "dependencies": {
     "concurrently": "^9.1.2",
