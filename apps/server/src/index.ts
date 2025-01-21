@@ -4,7 +4,7 @@ import pool from './db'
 import dotenv from 'dotenv'
 import { ResultSetHeader } from 'mysql2'
 dotenv.config()
-const a = '3'
+
 const app = express()
 app.use(cors())
 app.use(express.json())
